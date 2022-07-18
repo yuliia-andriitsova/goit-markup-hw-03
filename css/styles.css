@@ -36,7 +36,7 @@
 .body {
 	color: var(--primary-text-color);
 	font-family: Roboto, sans-serif;
-	background-color: var(--background-primary-color);
+	/* background-color: var(--background-primary-color); */
 }
 
 /* button */
@@ -79,14 +79,14 @@
 /*navigation */
 .navigation {
 	background-color: var(--background-header-color);
+	border: 1px solid var(--background-header-color);
+	border-bottom: 1px solid var(--add-color-headerline);
 }
 
 /* main-nav */
 .main-nav {
 	display: flex;
 	align-items: center;
-	border: 1px solid var(--background-header-color);
-	border-bottom: 1px solid var(--add-color-headerline);
 
 	font-weight: 500;
 	font-size: 14px;
@@ -127,6 +127,9 @@
 	text-decoration: none;
 
 	display: block;
+
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .site-nav .link.current {
@@ -138,8 +141,6 @@
 .auth-nav {
 	display: flex;
 	margin-left: auto;
-	margin-top: 32px;
-	margin-bottom: 32px;
 }
 
 .auth-nav .item + .item {
@@ -190,7 +191,6 @@
 	background-color: var(--background-hero-footer-color);
 	color: var(--add-color-text);
 	text-align: center;
-	margin-bottom: 94px;
 }
 
 .hero-title {
@@ -208,11 +208,9 @@
 
 /* features */
 
-.features {
-	/* outline: tomato solid 2px; */
-	margin-top: 0;
-	margin-bottom: 94px;
-}
+/* .features {
+	outline: tomato solid 2px;
+} */
 
 .features-list {
 	display: flex;
@@ -252,7 +250,8 @@
 
 /* work */
 .work {
-	margin-bottom: 94px;
+	/* outline: tomato solid 2px; */
+	padding-top: 0;
 }
 
 .works-list {
@@ -277,6 +276,10 @@
 	/* outline: tomato solid 2px; */
 }
 
+.item-card {
+	padding: 30px 50px;
+}
+
 .manager {
 	color: var(--title-text-color);
 	font-weight: 500;
@@ -298,7 +301,7 @@
 
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 	/* outline: tomato solid 2px; */
 }
 
@@ -315,7 +318,7 @@
 }
 
 .team-item img {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	display: block;
 	/* outline: tomato solid 2px; */
 }
